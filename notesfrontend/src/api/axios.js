@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "/",
+  baseURL: "https://django-react-notes-app-deployed.onrender.com",
   headers: {
     "Content-Type": "application/json",
   },
